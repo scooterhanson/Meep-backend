@@ -1,0 +1,18 @@
+{
+  "notifiers": {
+    "sms": {
+      "enabled": true,
+      "client": "TwilioRestClient",
+      "account": "[insert Twilio account #]",
+      "token": "[insert Twilio token]",
+      "from_num": "[insert Twilio phone #]",
+      "to_num": "[insert target phone #]"
+    },
+    "audio": {
+      "enabled": true,
+      "path": "/home/pi/bin/alarm/audio/",
+      "subprocess_utility": "aplay",
+      "set_volume_string": "amixer|set|PCM|100%"
+    }
+  }
+}

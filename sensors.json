@@ -1,0 +1,95 @@
+{
+  "Sensors": {
+    "sensor1": {
+      "sensorid": "1",
+      "name": "FRONT DOOR",
+      "pin": "23",
+      "type": "door",
+      "track_open": "true",
+      "track_close": "true",
+      "notify_open": "true",
+      "alert_open": "true",
+      "notify_close": "false",
+      "alert_close": "false",
+      "alert_sound": "alert-front_door.wav"
+    },
+    "sensor2": {
+      "sensorid": "2",
+      "name": "PATIO DOOR",
+      "pin": "18",
+      "type": "door",
+      "track_open": "true",
+      "track_close": "true",
+      "notify_open": "true",
+      "alert_open": "true",
+      "notify_close": "false",
+      "alert_close": "false",
+      "alert_sound": "alert-patio_door.wav"
+    },
+    "sensor3": {
+      "sensorid": "3",
+      "name": "GARAGE DOOR",
+      "pin": "25",
+      "type": "door",
+      "track_open": "true",
+      "track_close": "true",
+      "notify_open": "true",
+      "alert_open": "true",
+      "notify_close": "false",
+      "alert_close": "false",
+      "alert_sound": "alert-garage_door.wav"
+    },
+    "sensor4": {
+      "sensorid": "4",
+      "name": "SIDE DOOR",
+      "pin": "24",
+      "type": "door",
+      "track_open": "true",
+      "track_close": "true",
+      "notify_open": "true",
+      "alert_open": "true",
+      "notify_close": "false",
+      "alert_close": "false",
+      "alert_sound": "alert-side_door.wav"
+    },
+    "sensor5": {
+      "sensorid": "5",
+      "name": "GARAGE BAY 1",
+      "pin": "20",
+      "type": "door",
+      "track_open": "true",
+      "track_close": "true",
+      "notify_open": "true",
+      "alert_open": "true",
+      "notify_close": "false",
+      "alert_close": "false",
+      "alert_sound": "alert-garage_bay_1.wav"
+    },
+    "sensor6": {
+      "sensorid": "6",
+      "name": "GARAGE BAY 2",
+      "pin": "21",
+      "type": "door",
+      "track_open": "true",
+      "track_close": "true",
+      "notify_open": "true",
+      "alert_open": "true",
+      "notify_close": "false",
+      "alert_close": "false",
+      "alert_sound": "alert-garage_bay_2.wav"
+    },
+    "sensor7": {
+      "sensorid": "7",
+      "name": "ALARM PANEL",
+      "pin": "12",
+      "type": "door",
+      "track_open": "true",
+      "track_close": "true",
+      "notify_open": "true",
+      "alert_open": "true",
+      "notify_close": "false",
+      "alert_close": "false",
+      "alert_sound": "alert-alarm_panel.wav"
+    }
+  }
+}

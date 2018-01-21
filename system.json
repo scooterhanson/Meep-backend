@@ -1,0 +1,33 @@
+{
+    "beep": {
+        "door": true,
+        "motion": false
+    },
+    "notify": {
+        "door": true,
+        "motion": false
+    },
+    "siren": {
+        "door": false,
+        "motion": false
+    },
+    "motion": {
+        "beep": false,
+        "notify": false,
+        "siren": false
+    },
+    "system": {
+        "running": true,
+        "update_interval_sec": 5,
+        "updated_date": 1513919355,
+        "days_to_retain": 10
+    },
+    "alarm": {
+        "running": true
+    },
+    "database": {
+        "host": "localhost",
+        "port": "27017",
+        "mount": "/media/alarm_db"
+    }
+}
