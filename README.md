@@ -1,3 +1,5 @@
+![Logo](images/meep_header.png)
+
 # Meep  
 
 Meep is a configurable alarm program based around a Raspberry Pi setup with existing sensors.  If you have a house wired for an alarm system, this makes a very cost-effective solution without having to subscribe to a service.
@@ -73,9 +75,15 @@ See [Meep-frontend](https://github.com/scooterhanson/Meep-frontend) for a PHP ap
 
 This example has Meep running on a Raspberry Pi model 3, with a [screw terminal breakout module](https://www.amazon.com/Electronics-Salon-Terminal-Breakout-Module-Raspberry/dp/B01M27459S/ref=sr_1_1_sspa?ie=UTF8&qid=1516498810&sr=8-1-spons&keywords=raspberry%20pi%20screw%20terminal&psc=1) which makes the wiring much easier.  One of the wired sensors is attached to the base and lid of the panel box to sense when the panel has been opened.
 
+![alarm1](images/alarm1.JPG)
+![alarm2](images/alarm2.JPG)
+
 The relay shown is a [JBTek 4 switch relay](https://www.amazon.com/gp/product/B00KTEN3TM/ref=oh_aui_search_detailpage?ie=UTF8&psc=1) (most active-low relays will do just fine) with direct control pins, connected to the Pi's 5v and GND pins.  The inputs (1-4) are connected to GPIO screw terminals on the breakout module (see [Meep-frontend](https://github.com/scooterhanson/Meep-frontend) for details on what they do).
 
 The 2A power supply has been taken apart and mounted directly into the box, with the 110 input soldered to the board, in order to maximize space.
+
+![alarm3](images/alarm3.JPG)
+![alarm4](images/alarm4.JPG)
 
 The lid of the box has the internals from a USB-powered (driven from the Pi), line-in speaker.
 
