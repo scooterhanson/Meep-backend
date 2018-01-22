@@ -10,10 +10,11 @@ This is the python/mongo back-end of the alarm system.  Technically, it's functi
 ### Dependencies
 - Python 2.7 (anyone is welcome to help with python 3 support)
 - MongoDB (create a database named 'alarm' and configure `system.json` for the host and port)
+- PyMongo
+- RPi.GPIO
 - ALSA tools
 -- aplay (for playing audio alerts)
 -- amixer (for setting system volume)
-- RPi.GPIO
 
 ## Running
 Meep can be started straight from the command line (`` $ python /home/pi/bin/meep/meep.py``), or using the `watchdog.sh` script which makes sure the process is running.  Running `watchdog.sh` as a cron job makes for a good solution.
