@@ -4,7 +4,7 @@
 
 Meep is a configurable alarm program based around a Raspberry Pi setup with existing sensors.  If you have a house wired for an alarm system, this makes a very cost-effective solution without having to subscribe to a service.
 
-This is the python/mongo back-end of the alarm system.  Technically, it's functional as-is;  config files can be used to manage the system and the output will show status alerts.  However, check out Meep-frontend for a PHP web console (designed for mobile use) that adds a lot of control and visibility to the system.
+This is the python/mongo back-end of the alarm system.  Technically, it's functional as-is;  config files can be used to manage the system and the output will show status alerts.  However, check out (Meep-frontend)[https://github.com/scooterhanson/Meep-frontend] for a PHP web console (designed for mobile use) that adds a lot of control and visibility to the system.
 
 ## Installation
 ### Dependencies
