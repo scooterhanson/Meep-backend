@@ -30,7 +30,7 @@ class AlarmNotifier:
                 json_file.close()
 
 	def update_system_configs(self, new_system_configs):
-		self.alarm_system_configs = new_system_configs
+		self.alarm_system_configs = self.alarm_system_configs.update_config_data(new_system_configs)
 
 	def do_notify(self, sensor, pin, state, msg):
                 self.send_sms_alert(msg, sensor, pin, state)

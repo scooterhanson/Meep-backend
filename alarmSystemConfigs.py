@@ -34,13 +34,20 @@ class AlarmSystemConfigs:
 		json_file.close()
                 msg = "UPDATED CONFIGS - "+datetime.datetime.now().strftime("%m-%d %H:%M:%S")
 
+	def update_config_data(self, config_data):
+		self.system_configs = config_data
+		self.update_configs
+		return self
+
 	def get_configUpdateTime(self):
 		return self.system_configs['system']['updated_date']
 
 	def check_configValue(self, section, key):
+		self.load_configs()
 		return self.system_configs[section][key]
 
 	def set_configValue(self, section, key, value):
+		self.load_configs()
 		self.system_configs[section][key] = value
 		self.update_configs()
 
