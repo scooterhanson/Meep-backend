@@ -91,3 +91,4 @@ The lid of the box has the internals from a USB-powered (driven from the Pi), li
 A 1GB thumb drive is attached to the Pi as the mount point for the MongoDB database.
 
 
+LEGAL DISCLAIMER: Beaker is a registered trademark of The Muppets Studio, LLC. All Rights Reserved. © 2007 The Muppets Studio, LLC.
