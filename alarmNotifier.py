@@ -1,6 +1,6 @@
 import json
 import subprocess
-from twilio.rest import TwilioRestClient
+from twilio.rest import Client
 from alarmUtils import AlarmUtils
 from alarmSystemConfigs import AlarmSystemConfigs
 from alarmSiren import AlarmSiren
@@ -82,8 +82,8 @@ class AlarmNotifier:
 				self.alarm_siren.trigger_siren()
 
 	def dispatch_sms(self, msg):
-		client = TwilioRestClient(account=self.account,
-			token=self.token)
+		client = TwilioRestClient(self.account,
+			self.token)
 		client.messages.create(from_=self.from_num,
 			to=self.to_num,
 			body=('%s' %(msg)))
